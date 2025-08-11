@@ -1,22 +1,57 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+int main(){
+    printf("Desafio super trunfo-Paise \n");
+int população1;
+float area1;
+float PIB1;
+int turistico1;
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+
+
+
+int população2;
+float area2;
+float PIB2;
+int turistico2;
+
+printf("carta 1\n");
+
+printf("numero da pupulação: \n");
+scanf("%d", &população1);
+
+
+printf("Area da cidade: \n");
+scanf("%f", &area1);
+
+
+printf("PIB da sua cidade: \n");
+scanf("%f", &PIB1);
+
+
+printf("Quantidade de pontos turisticos: \n");
+scanf("%d", &turistico1);
+
+
+ printf("O numero da população: %d \nTamanho da area: %f \nValor do PIB: %f \nQuantidade de pontos turisticos: %d\n", população1, area1, PIB1, turistico1);
+
+printf("carta 2\n");
+
+printf("numero da pupulação: \n");
+scanf("%d", &população2);
+
+printf("Area da cidade: \n");
+scanf("%f", &area2);
+
+printf("PIB da sua cidade: \n");
+scanf("%f", &PIB2);
+
+printf("Quantidade de pontos turisticos: \n");
+scanf("%d", &turistico2);
+
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+printf("O numero da população: %d \nTamanho da area: %f \nValor do PIB: %f \nQuantidade de pontos turisticos: %d", população2, area2, PIB2, turistico2);
 
     return 0;
 }
